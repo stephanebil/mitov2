@@ -1,0 +1,1 @@
+<h2 class="font-black text-5xl text-center p-20 mt-10"><?= $titleone ?></h2>
