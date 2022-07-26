@@ -20,6 +20,8 @@
     <input type="submit" value="Envoyer" class="btn text-white bg-blue-500 ">
 </form>
 
+<img class= "w-full pb-20 "src="assets/img/map-img.png" alt="carte de l'emplacement de l'entrprise Mito">
+
 </section>
 <?php
     include ("partials/_footer.php")
