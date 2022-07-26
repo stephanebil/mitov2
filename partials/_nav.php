@@ -1,6 +1,6 @@
 <nav class="md:flex justify-center md:justify-between py-4 px-20 bg-green-50">
     <div>
-        <a class="grid justify-center" href="index.php"><img class="w-[60px]" src="assets/img/mito.png" alt="logo mito"></a>
+        <a class="mb-3 grid justify-center" href="index.php"><img class="w-[60px]" src="assets/img/mito.png" alt="logo mito"></a>
     </div>
     <div class="flex justify-center md:justify-end">
         <ul class="flex space-x-[40px] font-medium " >
