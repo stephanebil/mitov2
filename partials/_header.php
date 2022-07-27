@@ -12,18 +12,20 @@
     <script src="https://cdn.tailwindcss.com"></script>
 </head>
 <body>
+<header>
+  <?php 
+      include ("partials/_nav.php")
+  ?>
 
-<?php 
-    include ("partials/_nav.php")
-?>
+  <section
+    class=" flex items-center justify-center h-screen m-auto mb-12 bg-fixed bg-center bg-cover "
+    style="background-image: url(assets/img/mito-header.jpeg)">
 
-<section
-  class=" flex items-center justify-center h-screen m-auto mb-12 bg-fixed bg-center bg-cover "
-  style="background-image: url(assets/img/mito-header.jpeg)"
->
-  <div class="bg-black bg-opacity-50 bg-cover absolute w-full h-full "></div>
-  <div class="p-5 text-white rounded-xl relative z-1">
-    <h2 class=" text-lg text-green-300">Le leader français du Bio</h2>
-    <h1 class="font-black text-5xl md:text-6xl">Bienvenue chez Mito</h1>
-  </div>
+    <div class="bg-black bg-opacity-50 bg-cover absolute w-full h-full "></div>
+    <div class="p-5 text-white rounded-xl relative z-1">
+      <h2 class=" text-lg text-green-300">Le leader français du Bio</h2>
+      <h1 class="font-black text-5xl md:text-6xl">Bienvenue chez Mito</h1>
+    </div>
 </section>
+</header>
+<main>
