@@ -16,7 +16,7 @@
   <?php 
       include ("partials/_nav.php")
   ?>
-
+  <!-- partie parallax -->
   <section
     class=" flex items-center justify-center h-screen m-auto mb-12 bg-fixed bg-center bg-cover "
     style="background-image: url(assets/img/mito-header.jpeg)">
